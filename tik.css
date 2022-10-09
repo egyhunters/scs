@@ -1,0 +1,439 @@
+main .menu .button.selected{
+  min-height: 96px;
+  position: relative;
+  display: inline-block;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 17px 2px 15px;
+  border-radius: 4px;
+  border: 2px solid rgb(250, 206, 21);
+  user-select: none;
+  cursor: pointer;
+  pointer-events: initial;
+  opacity: 1;
+  background-image: initial;
+  background-repeat: no-repeat;
+  background-position: left bottom -1px;
+}
+
+.button{
+  display: inline-block;
+  padding: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 18px 2px 16px;
+  border-radius: 4px;
+  border: 1px solid rgba(22, 24, 35, 0.12);
+  user-select: none;
+  cursor: pointer;
+  pointer-events: initial;
+  opacity: 1;
+  background-image: initial;
+  background-repeat: no-repeat;
+  background-position: left bottom -1px;
+}
+.selected {
+  min-height: 96px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 18px 2px 16px;
+  border-radius: 4px;
+  border: 1px solid rgba(250, 206, 21);
+  user-select: none;
+  cursor: pointer;
+  pointer-events: initial;
+  opacity: 1;
+  background-image: initial;
+  background-repeat: no-repeat;
+  background-position: left bottom -1px;
+}
+.divcontainer {
+  min-height: 96px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 18px 2px 16px;
+  border-radius: 4px;
+  /* border: 1px solid rgba(22, 24, 35, 0.12); */
+  user-select: none;
+  cursor: pointer;
+  pointer-events: initial;
+  opacity: 1;
+  background-image: initial;
+  background-repeat: no-repeat;
+  background-position: left bottom -1px;
+}
+.divcoinslistcontainer {
+  width: 100%;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(174px, 1fr));
+  gap: 16px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  grid-template-columns: repeat(auto-fit, 219px);
+  gap: 24px;
+}
+.divcoinsbkgcontainer {
+  margin: 12px 0 24px;
+}
+.DivNumContainer {
+  height: 32px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.SpanNumIcon {
+  height: 32px;
+}
+.StyledCoinIcon {
+  width: 32px;
+  height: 32px;
+  transform: rotateY(180deg);
+}
+.SpanNumDisplay {
+  font-family: ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+  font-size: 24px;
+  line-height: 1.2;
+  display: inline-block;
+  color: rgb(22, 24, 35);
+  vertical-align: middle;
+  margin-left: 0px;
+  margin-right: 8px;
+  font-weight: 700;
+}
+.DivTextContainer {
+  height: 20px;
+  margin-top: 8px;
+  display: flex;
+  font-family: ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: rgba(22, 24, 35, 0.5);
+  text-align: center;
+  line-height: 1.1;
+}
+.SpanTextNow {
+  font-family: ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: rgba(22, 24, 35, 0.5);
+  text-align: center;
+  line-height: 1.1;
+}
+.InputNum {
+  width: 134px;
+  background-color: transparent;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-image: initial;
+  border-bottom: 1px solid rgb(22, 24, 35);
+  outline: none;
+  text-align: center;
+  color: rgb(22, 24, 35);
+  font-weight: 100;
+  font-family: ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+}
+button, input {
+  overflow: visible;
+}
+#userAsCat {
+	display:none;
+}
+.PRechargeCoins {
+  font-family: ProximaNova,Arial,Tahoma,PingFangSC,sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  margin-top: 16px;
+  line-height: 1.2;
+}
+.tiktok-v9olc7-Button-StyledBuyButton {
+  border-radius: 4px;
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(254, 44, 85);
+  min-height: 36px;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 6px 8px;
+  user-select: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  font-family: ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  margin-right: 0px;
+  min-width: 100px;
+  width: 200px;
+  height: 46px;
+}
+.tiktok-1mgqn7p-SpanTotalText {
+  color: rgb(22, 24, 35);
+  display: inline-block;
+  margin-left: 6px;
+  font-family: ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+}
+.tiktok-omf4am-ImgPaymentIcon {
+  width: 22px;
+  height: 14px;
+  display: inline-block;
+  margin-right: 4px;
+}
+.tiktok-amfpe8-DivPaymentMethodsContainer {
+  width: 100%;
+  margin-bottom: 12px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.imgtekk {
+  width: 30%;
+
+
+}.tiktok-v9olc7-Button-StyledBuyButton:hover {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)), rgb(227 43 79);
+}
+.tiktok-n99h88:hover {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)), rgb(227 43 79);
+  text-decoration: none;
+}
+.tiktok-txoc9t:hover {
+  background: linear-gradient(0deg, rgba(219, 219, 219, 0.06), rgba(219, 219, 219, 0.06)), rgb(237, 237, 237);
+}
+
+
+.modal {
+  box-sizing: border-box;
+  position: fixed;
+  inset: 0px;
+  display: none;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  overflow: auto;
+
+
+
+}
+.tiktok-y7zbji {
+  box-sizing: border-box;
+  position: fixed;
+  inset: 0px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  overflow: auto;
+}
+.tiktok-tryc2y {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  align-items: flex-start;
+  max-height: 100vh;
+  overflow: visible;
+}
+.tiktok-1weidgs {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 32px 16px;
+  max-width: 100vw;
+}
+.tiktok-1276pz9 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  position: relative;
+  outline: 0px;
+  max-width: calc(100vw - 32px);
+  background: var(--tux-colorBGPrimary);
+  box-shadow: rgb(0 0 0 / 12%) 0px 2px 12px;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 400px;
+  transition-property: transform, opacity;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.65, 0, 0.35, 1);
+  opacity: 1;
+  transform: none;
+}
+.tiktok-19h7sb8-DivModalHeader {
+  padding: 24px;
+  text-align: center;
+}
+.tiktok-lst2pp {
+  box-sizing: border-box;
+  margin-block: 0px;
+  font-size: var(--tux-fontSizeP1);
+  line-height: 1.5;
+  font-family: var(--tux-fontFamilyParagraph);
+  font-weight: var(--tux-fontWeightBold);
+}
+.tiktok-1b6x26b-DivModalBody {
+  padding: 0px 24px;
+  text-align: center;
+}
+.tiktok-oemd4w {
+  box-sizing: border-box;
+  min-height: 84px;
+  overflow: hidden;
+  display: flex;
+  flex-flow: row nowrap;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  padding: 24px;
+  gap: 12px 8px;
+}
+.tiktok-txoc9t {
+  box-sizing: border-box;
+  appearance: none;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  font-family: var(--tux-fontFamilyParagraph);
+  font-weight: var(--tux-fontWeightSemibold);
+  text-decoration: none;
+  cursor: pointer;
+  background-clip: padding-box;
+  width: 100%;
+  font-size: var(--tux-fontSizeP3);
+  height: 48px;
+  min-width: 72px;
+  padding-inline: 23px;
+  color: var(--tux-colorConstTextPrimary);
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(227, 227, 227);
+}
+.tiktok-1db5cpb {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  opacity: 1;
+  overflow: hidden;
+  gap: 6px;
+}
+.tiktok-1db5cpb {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  opacity: 1;
+  overflow: hidden;
+  gap: 6px;
+}
+.tiktok-1z070dx {
+  box-sizing: border-box;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.tiktok-n99h88 {
+  box-sizing: border-box;
+  appearance: none;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  font-family: var(--tux-fontFamilyParagraph);
+  font-weight: var(--tux-fontWeightSemibold);
+  text-decoration: none;
+  cursor: pointer;
+  background-clip: padding-box;
+  width: 100%;
+  font-size: var(--tux-fontSizeP3);
+  height: 48px;
+  min-width: 72px;
+  padding-inline: 23px;
+  color: var(--tux-colorConstTextInverse);
+  background-color: var(--tux-colorPrimary);
+  border-color: var(--tux-colorPrimary);
+  text-decoration: none;
+}
+.StyledBuyButtondisabled {
+  border: none;
+  color: rgba(22, 24, 35, 0.34);
+  background-color: rgba(22, 24, 35, 0.06);
+  pointer-events: none;
+  border-radius: 4px;
+  min-height: 36px;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 6px 8px;
+  user-select: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  font-family: ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  margin-right: 0px;
+  min-width: 100px;
+  width: 200px;
+  height: 46px;
+}
+#buttonbuy {
+	display:none;
+}
