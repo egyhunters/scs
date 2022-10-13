@@ -517,3 +517,8 @@ text-shadow: 1px 1px 0px #ccc;
 	text-transform: uppercase;
 	display: inline-block;
 }
+.body{ 
+	font: normal 13px/20px Arial, Helvetica, sans-serif; word-wrap:break-word;
+	background: #fff;
+  padding-top: 100px
+}
