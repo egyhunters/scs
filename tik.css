@@ -440,18 +440,3 @@ button, input {
 
 
 
-.body {
-	height: 100vh
-	width: 100wv
-	display: flex
-	justify-content: center
-	align-items: center
-	flex-direction: column
-	
-	.countdown-time
-		p
-			text-align: center
-			font-size: 2rem
-		.time
-			font-size: 5rem
-		}
