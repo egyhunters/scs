@@ -448,10 +448,10 @@ button, input {
 	align-items: center
 	flex-direction: column
 	
-	countdown-time
+	.countdown-time
 		p
 			text-align: center
 			font-size: 2rem
-		time
+		.time
 			font-size: 5rem
 		}
